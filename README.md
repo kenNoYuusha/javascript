@@ -51,3 +51,14 @@ Para scripts externos, el fetching ocurre en segundo plano y no detiene la carga
 A diferencia de async, el fetch tambien ocurre en segundo plano y no detiene la ejecucion del DOM, pero el script se ejecuta al momento que el DOM termina de cargar.
 
 
+## Scope
+
+El scope es lo que define el tiempo de vida de una variable, nos ayuda a no sobreescribir el valor de la misma, en javascript tenemos 4.
+- Global Scope.
+como su nombre lo dice tenemos alcance global, toda variable glboal pertenece al objeto window.
+- Function Scope.
+alcance a nivel de funcion, var solo soporta function scope.
+- Block Scope.
+alcance a nivel de bloques, let y const
+- Module Scope.
+alcance a nivel de archivo, se requiere exportar de una parte e importar de otra.
