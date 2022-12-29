@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "- Conocimiento del lenguaje.\r - Conocimiento de los entornos de programacion.\r - Mejores practicas.\r - Versado en codigo.\r - Herramientas\r - Etiaca / Profesionalismo\r - Experiencia",
+  "main": "index.js",
+  "scripts": {
+   "start" : "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenNoYuusha/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenNoYuusha/javascript/issues"
+  },
+  "homepage": "https://github.com/kenNoYuusha/javascript#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
