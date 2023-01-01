@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+</head>
+<body>
+    
+    <h2>ATM</h2>
+
+    <script>
+
+        function ahorros(init = 0){
+            let saldo = init;
+            return {
+                add : (amount) => {
+                    saldo += amount;
+                },
+                minus: (amount) => {
+                    if(saldo < amount) return;
+                    saldo -= amount;
+                },
+                getAmount: () => {
+                    return saldo;
+                },
+                
+            }
+        }
+
+        const jorge = ahorros(10)
+
+
+
+
+
+    </script>
+</body>
+</html>

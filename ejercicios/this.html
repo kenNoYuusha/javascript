@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This</title>
+  </head>
+  <body>
+
+    <script>
+
+      const person1 = {
+        nombre: "Bryan",
+        edad: 25
+      }
+
+      const person2 = {
+        nombre: "Roberto",
+        edad: 40,
+      }
+
+      const person3 = {
+        nombre: "Fredy",
+        edad: 34,
+      }
+
+
+      //call
+        function saludar(){
+           console.log(`Hola soy ${this.nombre} y tengo ${this.edad} años`)
+        }
+
+        saludar.call(person1)
+        //saludar.call(person1, arg1, arg2, arg3 ....)
+
+      //apply
+
+        function saludar2(){
+           console.log(`Hola soy ${this.nombre} y tengo ${this.edad} años`)
+        }
+
+        saludar2.apply(person2)
+        //saludar2.apply(person2,[args])
+
+      //bind
+
+        function saludar3(){
+           console.log(`Hola soy ${this.nombre} y tengo ${this.edad} años`)
+        }
+
+        const saludarBinded = saludar3.bind(person3)
+        saludarBinded();
+        //argumentos compartidos
+    </script>
+  </body>
+</html>

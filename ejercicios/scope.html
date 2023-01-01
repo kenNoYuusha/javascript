@@ -11,7 +11,16 @@
 
     <script>
 
-      
+      //function scope 
+      function printNumbers(){
+        for(var index = 1; index <= 10; index++){
+          setTimeout(()=> {
+            console.log(index)
+          }, 0)
+        }
+      }   
+      printNumbers();
+
     </script>
   </body>
 </html>
