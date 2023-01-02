@@ -4,7 +4,7 @@
   "description": "- Conocimiento del lenguaje.\r - Conocimiento de los entornos de programacion.\r - Mejores practicas.\r - Versado en codigo.\r - Herramientas\r - Etiaca / Profesionalismo\r - Experiencia",
   "main": "index.js",
   "scripts": {
-   "start" : "live-server"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
